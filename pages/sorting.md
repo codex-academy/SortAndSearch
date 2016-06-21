@@ -1,3 +1,9 @@
+---
+layout: default
+title: Index
+unitstandard: 115373-SO2-AC1, 115373-SO2-AC2, 115373-SO2-AC3
+---
+
 # Sorting
 
 Sorting a list in Javascript is as easy as calling the `sort` function. You can specify how it should be sorted by passing it in a command function. But what is it doing behind the scenes?
@@ -34,3 +40,7 @@ Here are two more.
 Take a look at how Insertion sort work[here](https://www.youtube.com/watch?v=DFG-XuyPYUQ)
 
 And [this](https://www.youtube.com/watch?v=f8hXR_Hvybo) is how the very efficient Merge sort algorithm works.
+
+## What make sorting hard?
+
+TODO...

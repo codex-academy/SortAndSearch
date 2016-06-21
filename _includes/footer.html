@@ -1,0 +1,22 @@
+<footer class="site-footer">
+  <nav class="main-nav" id="menu">
+    <ul>
+          <li>
+              <a href="{{ site.baseurl }}/pages/intro.html" {% if page.url == "/pages/intro.html" %}class = "active"{% endif %}>Introduction</a>
+          </li>
+          <li>
+              <a href="{{ site.baseurl }}/pages/lists_vs_arrays.html" {% if page.url == "/pages/lists_vs_arrays.html" %}class = "active"{% endif %}>Collection basics</a>
+          </li>
+          <li>
+              <a href="{{ site.baseurl }}/pages/datastructures.html" {% if page.url == "/pages/datastructures.html" %}class = "active"{% endif %}>Data structures</a>
+          </li>
+
+          <li>
+              <a href="{{ site.baseurl }}/pages/sorting.html" {% if page.url == "/pages/sorting.html" %}class = "active"{% endif %}>Sort algorithms</a>
+          </li>
+          <li>
+              <a href="{{ site.baseurl }}/pages/searching.html" {% if page.url == "/pages/searching.html" %}class = "active"{% endif %}>Search algorithms</a>
+          </li>
+    </ul>
+  </nav>
+</footer>

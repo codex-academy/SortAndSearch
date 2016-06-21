@@ -1,0 +1,8 @@
+# Site settings
+title: Search and Sort
+
+# Build settings
+markdown: kramdown
+
+gems:
+  - jemoji

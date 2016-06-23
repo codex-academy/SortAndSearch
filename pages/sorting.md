@@ -10,13 +10,13 @@ Sorting a list in Javascript is as easy as calling the `sort` function. You can 
 
 A basic sort functions might compare each values in a list with each other and then swap the values around until there are no more values to be swapped.
 
-There are various different sorting algorithms - an algorithm being a set of steps to achieve a certain goal or outcome. Some sorting algorithms are more efficient than others, that is they take less steps/cycles to complete sorting the data. The steps is how many times the algorithm needs to inspect the data to ensure the data is sorted.
-
 # Sorting algorithms
 
-##Selection sort
+There are various different sorting algorithms, an algorithm being a set of steps to achieve a certain goal or outcome. Some sorting algorithms are more efficient than others, they take less steps to complete sorting the data. The steps is how many times the algorithm needs to inspect the data to ensure the data is sorted.
 
-Selection sort is very similar to finding the biggest or smallest product for Nelisa. But you don’t stop once you find the smallest/ largest product you keep on going until you ordered all the values in the list.
+## Selection sort
+
+Selection sort is very similar to finding the biggest or smallest product for Nelisa. But you don’t stop once you find the smallest/largest product you keep on going until you ordered all the values in the list.
 
 Learn more about Selection sort [here](https://www.youtube.com/watch?v=f8hXR_Hvybo). Do you see the similarity to finding products for Nelisa?
 

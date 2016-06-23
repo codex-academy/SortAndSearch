@@ -16,7 +16,7 @@ Arrays are the building blocks for various other data structures.
 
 ## Linked List
 
-A dynamic collection of variable that use pointers to link various different variables together.
+A Linked List is an ordered set of data nodes, each node containing data and a link to the next node (and sometimes to the previous node).
 
 You can use objects to create Linked Lists.
 
@@ -27,21 +27,29 @@ One can create a Node Object like this:
 		this.data = data;
 		this.next = next;
 	}
+```
+
+And then create a list of nodes like this:
+
+```javascript
+
+	var nodeThree = new ListNode(9, null);
+	var nodeTwo = new ListNode(13, nodeThree);
+	var nodeOne = new ListNode(7, nodeTwo);
 
 
-	var ListNode = {
-		Data : 23,
-		Next : null,
-	};
+
 ```
 
 The `next` variable points to the next node.
 
 This way you can create a list of objects without using the built in List variable of Javascript.
 
+**Try this**
 
+* Create a LinkedList Object and create a List of Categories and Product names for Nelisa.
 
-Create a LinkedList Object and create a List of Categories and Product names for Nelisa.
+* Create a Stack Object that use a Linked List instead of a Javascript List.
 
 How can you make it easier to create a Linked Lists?
 

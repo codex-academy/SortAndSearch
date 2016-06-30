@@ -91,7 +91,9 @@ The list of `Nodes` is very basic and cumbersome to work with, but using a `Node
 
 Such a list of Nodes is called a Linked List. Each Node is linked to the next Node. The last Node in the list not linked to anything. As a result, you can traverse a Linked List by:
 
-One also get `doubly Linked List` where list `Nodes` can point to both the next and the previous `Node` in the chain. This makes your Linked List data structure more flexible and easier to navigate.
+  * starting at the root Node,
+  * getting the value of the Node and the next Node it is referencing;
+  * reaching the end of the list where the next Node is null.
 
 You can also get a **doubly Linked List** where list `Nodes` can point to both the next and the previous `Node` in the chain. This makes your Linked List data structure more flexible and easier to navigate.
 

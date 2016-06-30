@@ -9,11 +9,11 @@ unitstandard: 115373-SO1-AC2
 
 ## Arrays
 
-An [Array](https://www.youtube.com/watch?v=7EdaoE46BTI) is variable that can store more than one variable under the same name. In it's purest form it is a continuous memory block where a number of variables can be stored sequentially. Each variable in an Array is accessible using an index number. They are a linear lists with a fixed number of spaces available for variables.
+An [Array](https://www.youtube.com/watch?v=7EdaoE46BTI) is variable that can store more than one variable under the same name. In it's purest form it is a continuous memory block where some variables can be stored sequentially. Each variable in an Array is accessible using an index number. They are linear lists with a fixed number of spaces available for variables.
 
-JavaScript Arrays [are not	 Arrays](https://javascriptweblog.wordpress.com/2010/07/12/understanding-javascript-arrays/) in the purest sense of the word as the are auto extending.
+JavaScript Arrays [are not	 Arrays](https://javascriptweblog.wordpress.com/2010/07/12/understanding-javascript-arrays/) in the purest sense of the word as they are auto extending.
 
-One can create an Array like this:
+You can create an Array like this:
 
 ```javascript
 //create an empty `Array` with 5 slots for values
@@ -31,7 +31,7 @@ console.log(players[0]);
 console.log(players[1]);
 ```
 
-JavaScript Arrays allows this to happen:
+JavaScript Arrays allow this to happen:
 
 ```javascript
 
@@ -45,9 +45,9 @@ player[8] = "Wayne Rooky";
 
 ```
 
-In JavaScript an Array auto extend when new values are added to them. In some other programming languages with traditional Arrays you can only add as many values into an Array as allocated at initialization time. To extend an Array then you would have to create a new bigger Array and then copy the values over to the Array. None of that in JavaScript so Lists in JavaScript is Array-like, but not pure Arrays, something to bare in mind for your journey ahead as a programmer.
+In JavaScript an Array auto-extends when new values are added to them. In programming languages with traditional Arrays they don't auto-extend: you can only add as many values into an Array as are allocated at initialization time. To extend an Array you would have to create a new, bigger, Array and then copy the values over to the new Array. None of that happens in JavaScript, so Lists in JavaScript are Array-like, but not pure Arrays. Something to bear in mind for your journey ahead as a programmer.
 
-Arrays are a fundamental building blocks for various other data structures, especially combined with Objects.
+Arrays are a fundamental building blocks for various other data structures, especially when combined with Objects.
 
 ## Linked List
 
@@ -55,24 +55,22 @@ A [Linked List](https://en.wikipedia.org/wiki/Linked_list) is an ordered set of 
 
 **Does this sounds familiar?**
 
-This is exactly what we did in the previous section. We created a `Node` Object and then use it to create a list of inter-connected `Node` objects resulting in a list. It is very cumbersome to use though, we can fix this by using a LinkedList object.
+This is exactly what we did in the previous section. We created a `Node` Object and then use it to create a list of inter-connected `Node` objects resulting in a list. It is very cumbersome to use though: we can fix this by using a LinkedList object.
 
 ## A usable Linked List
 
 As is hard to use the `Node` Object on it's own we need to create a `LinkedList` object that is easier to use.
 
-So go ahead and create a LinkedList object, that have:
+Use TDD to create a LinkedList object that has:
 
-* an `add` function that adds an item to the list
-* a `length` function that returns the number of items in the list
-* a `next` function that returns the next item in the list, which can be used for looping over the list. It should return null if the end of the list is reached
-* a `first` function that returns the first item in the list
-* a `last` function that returns the last item in the list
-
-Do this using **TDD**
+* an `add` function that adds an item to the list;
+* a `length` function that returns the number of items in the list;
+* a `next` function that returns the next item in the list, which can be used for looping over the list. It should return null if the end of the list is reached;
+* a `first` function that returns the first item in the list;
+* a `last` function that returns the last item in the list.
 
 Now add this:
 
-* a `find` function that find all items in a list that match a given condition. It should take in a function as a parameter, this function will take in the current Node. And it will return true/false if the condition is met.
+* a `find` function that finds all items in a list that matches a given condition. It should take in a function as a parameter. This function will take in the current Node and will return true/false if the condition is met.
 
 Now use your newly created **LinkedList** object to and create a list of Categories and Product names for Nelisa.

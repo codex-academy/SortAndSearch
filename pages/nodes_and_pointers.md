@@ -8,7 +8,7 @@ unitstandard: 115373-SO1-AC2
 
 ## Introduction
 
-In the warm up session you fiddled around with Javascript list swapping list entries around. If I told you had to do the first warm up exercise, BUT you are not allowed to a built Javascript lists. How would you approach it?
+In the warm up session you worked with Javascript lists, swapping the list entries around. If I told you had to do the first warm up exercise, BUT you are not allowed to a built Javascript lists. How would you approach it?
 
 **pregnant pause...**
 
@@ -22,9 +22,7 @@ How would that work?
 
 ## Nodes and pointers applied
 
-We can start to create a `Node` object that can contain some data and points to another `Node` object. Does that sound feasible?
-
-So in effect we are creating a list of inter-connected Objects where the one Object points to the next object.
+How about creating a `Node` object that can contain some data and points to another `Node` object. So in effect creating a list of inter-connected Objects where the one Object points to the next object.
 
 Let's try it out:
 

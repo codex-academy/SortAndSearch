@@ -5,7 +5,7 @@ title: Index
 
 # Search and Sort
 
-This section is all about Sorting and Searching data. You will learn how to sort and create your own Data Structures
+This section is all about Sorting and Searching data. You will learn how to sort and create your own Data Structures.
 
 ## Get to know the plumbing?
 

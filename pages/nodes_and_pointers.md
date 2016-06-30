@@ -34,40 +34,44 @@ var Node = function(data, next){
 Let's recreate the list from the first exercise:
 
 ```javascript
-// create this
+// Create this
 // ['apple', 'pear', 'mango', 'banana']
 
-//Create a list by using nested Nodes
-var fruitList = new Node('apple', new Node('pear',
-                                  new Node('mango',
-                                  new Node('banana', null))));
+// Create a list by using nested Nodes
+var fruitList = new Node('apple',
+                  new Node('pear',
+                    new Node('mango',
+                      new Node('banana', null)
+                    )
+                  )
+                );
 ```
 
 Another way to create the list would be:
 
 ```javascript
-    //First create all the Nodes
-    var apple = new Node('apple', null),
-        pear = new Node('pear', null),
-        mango = new Node('mango', null),
-        banana = new Node('banana', null);
+//First create all the Nodes
+var apple = new Node('apple', null),
+    pear = new Node('pear', null),
+    mango = new Node('mango', null),
+    banana = new Node('banana', null);
 
-    //now link the Nodes
-    apple.next = pear;
-    pear.next = mango;
-    mango.next = banana;ß    
+//now link the Nodes
+apple.next = pear;
+pear.next = mango;
+mango.next = banana;
 ```
 
 Now that you have a list of fruits, experiment a bit:
 
 ```javascript
-//let's print out 'apple'
+// Let's print out 'apple'
 console.log(fruitList.data);
 
-//let's print out 'pear'
+// Let's print out 'pear'
 console.log(fruitList.next.data);
 
-// how can you print out 'mango'
+// How can you print out 'mango'?
 
 ```
 

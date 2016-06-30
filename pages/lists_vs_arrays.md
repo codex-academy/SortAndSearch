@@ -16,13 +16,13 @@ JavaScript Arrays [are not	 Arrays](https://javascriptweblog.wordpress.com/2010/
 You can create an Array like this:
 
 ```javascript
-//create an empty `Array` with 5 slots for values
+// Create an empty `Array` with 5 slots for values
 var players = new Array(5);
 
-//See the empty Array
+// See the empty Array
 console.log(players);
 
-//populate the Array like this
+// Populate the Array like this
 player[0] = "David Beckman";
 player[1] = "Ryan Geeks";
 
@@ -35,12 +35,13 @@ JavaScript Arrays allow this to happen:
 
 ```javascript
 
-//Adding a 6th element to the Array with only 5 allocated places
+// Add a 6th element to the Array with only 5 allocated places
 player[5] = "Thierry Hungry";
-//what happened here?
+
+// What happened here?
 console.log(player[5]);
 
-//I can even do funny thing like adding a 9th element
+// We can even do funny thing like adding a 9th element
 player[8] = "Wayne Rooky";
 
 ```

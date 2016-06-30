@@ -6,7 +6,7 @@ unitstandard: 115373-SO2-AC1, 115373-SO2-AC2, 115373-SO2-AC3
 
 # Sorting
 
-Sorting a list in Javascript is as easy as calling the `sort` function. You can specify how it should be sorted by passing it in a command function. But what is it doing behind the scenes?
+Sorting a list in JavaScript is as easy as calling the `sort` function. You can specify how it should be sorted by passing it in a command function. But what is it doing behind the scenes?
 
 A basic sort functions might compare each values in a list with each other and then swap the values around until there are no more values to be swapped.
 

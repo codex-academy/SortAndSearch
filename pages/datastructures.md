@@ -17,9 +17,9 @@ A Queue is a First in First Out (FIFO) linear data structure.
 
 In everyday life queues are very common, we routinely wait for our turn at the cash machine or at the supermarket. People can only join the queue from the back and the person in front of the queue is helped first.
 
-In programming queues are also widely used and the [Event Loop](https://www.youtube.com/watch?v=8aGhZQkoFbQ) in Javascript is a prime example of one. It is used to schedule the execution order of events in Javascript.
+In programming queues are also widely used and the [Event Loop](https://www.youtube.com/watch?v=8aGhZQkoFbQ) in JavaScript is a prime example of one. It is used to schedule the execution order of events in JavaScript.
 
-You can easily create a simple Queue using a Javascript list.
+You can easily create a simple Queue using a JavaScript list.
 
 Look at this code and try it out:
 
@@ -44,7 +44,7 @@ console.log(queue.shift());
 
 **Try this**
 
-Create your own `Queue` Object (constructor function) that wraps a Javascript list object. It should have to two methods `enqueue` and `dequeue`. The `enqueue` method should put an item unto the queue. And the `dequeue` method should remove and return the item in front of the queue. Your object should have a `length` function that returns the length our the queue.
+Create your own `Queue` Object (constructor function) that wraps a JavaScript list object. It should have to two methods `enqueue` and `dequeue`. The `enqueue` method should put an item unto the queue. And the `dequeue` method should remove and return the item in front of the queue. Your object should have a `length` function that returns the length our the queue.
 
 ## Stack
 
@@ -52,7 +52,7 @@ A Stack is Last in First Out(LIFO) linear data structure.
 
 The undo command in a text editor is a good example of using a Stack in real life. If you press undo the last thing you did is undone. If you keep on going the last thing that will be undone will be the first change you made to the text document.
 
-You can use a Javascript list to create a simple Stack.
+You can use a JavaScript list to create a simple Stack.
 
 Look at this code and try it out:
 

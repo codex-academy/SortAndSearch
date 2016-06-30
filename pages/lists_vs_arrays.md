@@ -11,7 +11,7 @@ unitstandard: 115373-SO1-AC2
 
 An [Array](https://www.youtube.com/watch?v=7EdaoE46BTI) is variable that can store more than one variable under the same name. In it's purest form it is a continuous memory block where a number of variables can be stored sequentially. Each variable in an Array is accessible using an index number. They are a linear lists with a fixed number of spaces available for variables.
 
-Javascript Arrays [are not	 Arrays](https://javascriptweblog.wordpress.com/2010/07/12/understanding-javascript-arrays/) in the purest sense of the word as the are auto extending.
+JavaScript Arrays [are not	 Arrays](https://javascriptweblog.wordpress.com/2010/07/12/understanding-javascript-arrays/) in the purest sense of the word as the are auto extending.
 
 One can create an Array like this:
 
@@ -31,7 +31,7 @@ console.log(players[0]);
 console.log(players[1]);
 ```
 
-Javascript Arrays allows this to happen:
+JavaScript Arrays allows this to happen:
 
 ```javascript
 
@@ -45,7 +45,7 @@ player[8] = "Wayne Rooky";
 
 ```
 
-In Javascript an Array auto extend when new values are added to them. In some other programming languages with traditional Arrays you can only add as many values into an Array as allocated at initialization time. To extend an Array then you would have to create a new bigger Array and then copy the values over to the Array. None of that in Javascript so Lists in Javascript is Array-like, but not pure Arrays, something to bare in mind for your journey ahead as a programmer.
+In JavaScript an Array auto extend when new values are added to them. In some other programming languages with traditional Arrays you can only add as many values into an Array as allocated at initialization time. To extend an Array then you would have to create a new bigger Array and then copy the values over to the Array. None of that in JavaScript so Lists in JavaScript is Array-like, but not pure Arrays, something to bare in mind for your journey ahead as a programmer.
 
 Arrays are a fundamental building blocks for various other data structures, especially combined with Objects.
 

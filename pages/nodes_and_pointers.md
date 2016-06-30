@@ -8,7 +8,7 @@ unitstandard: 115373-SO1-AC2
 
 ## Introduction
 
-In the warm up session you worked with Javascript lists, swapping the list entries around. If I told you had to do the first warm up exercise, BUT you are not allowed to a built Javascript lists. How would you approach it?
+In the warm up session you worked with JavaScript lists, swapping the list entries around. If I told you had to do the first warm up exercise, BUT you are not allowed to a built JavaScript lists. How would you approach it?
 
 **pregnant pause...**
 
@@ -16,7 +16,7 @@ You will need to create your own List. How would you do that?
 
 **more silence**
 
-Why not use Javascript objects, to point to other Javascript objects.
+Why not use JavaScript objects, to point to other JavaScript objects.
 
 How would that work?
 
@@ -86,7 +86,7 @@ console.log(fruitList.next.data);
 
 ## Linked Lists
 
-As you can see without using Javascript's list object it is possible to create a list of fruits.
+As you can see without using JavaScript's list object it is possible to create a list of fruits.
 
 The list of `Nodes` are very basic and cumbersome to work with, but using a `Node` object we can create a chain of nodes that reference each other.
 

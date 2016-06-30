@@ -5,7 +5,7 @@ title: Index
 
 # Introduction
 
-We will be working with Data Structures extensively in this section. We will use Javascript Arrays, which is rather a List than an Array, a lot. You will discover why a Javascript Array is not really an Array in the truest sense of the word. You will also learn how to create your own Data Structures in Javascript. Soon you will be creating and sorting your own Lists in Javascript.
+We will be working with Data Structures extensively in this section. We will use JavaScript Arrays, which is rather a List than an Array, a lot. You will discover why a JavaScript Array is not really an Array in the truest sense of the word. You will also learn how to create your own Data Structures in JavaScript. Soon you will be creating and sorting your own Lists in JavaScript.
 
 ## Let’s do a few warming up exercises.
 

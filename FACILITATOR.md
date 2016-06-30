@@ -2,7 +2,6 @@
 layout: default
 title: Facilitator notes
 ---
-
 # Facilitator notes
 
 The main learning outcome of these exercises are:

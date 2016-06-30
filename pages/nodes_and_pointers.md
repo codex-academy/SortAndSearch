@@ -93,7 +93,11 @@ Such a list of Nodes is called a Linked List. Each Node is linked to the next No
 
 One also get `doubly Linked List` where list `Nodes` can point to both the next and the previous `Node` in the chain. This makes your Linked List data structure more flexible and easier to navigate.
 
-**Pro's and Con's** What are the Pro's and Con's of a Linked List? How are a doubly Linked List beneficial?
+You can also get a **doubly Linked List** where list `Nodes` can point to both the next and the previous `Node` in the chain. This makes your Linked List data structure more flexible and easier to navigate.
+
+### Pro's and Con's
+
+What are the Pro's and Con's of a Linked List? How is a doubly Linked List beneficial?
 
 ## Beyond Linked List
 

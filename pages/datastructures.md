@@ -24,20 +24,20 @@ You can create a simple Queue using a JavaScript list. Try out this code:
 ```javascript
 var queue = [];
 
-//use a list as a queue
+// Use a list as a queue
 queue.push('apple');
 queue.push('pear');
 queue.push('mango');
 
-//all the items is attached to the back of the list
+// All the items are added to the end of the list
 console.log(queue);
-//the first item are taken of the list
+// The first item is taken off the list
 console.log(queue.shift());
-//only pear and mango will be on the list
+// Only pear and mango will be on the list
 console.log(queue);
-//what will this print?
+// What will this print?
 console.log(queue.shift());
-//which items will remain on the list/queue?
+// Which items will remain on the list/queue?
 ```
 
 Create your own `Queue` Object (constructor function) that wraps a JavaScript list object. It should have two methods: `enqueue` and `dequeue`. The `enqueue` method should put an item onto the queue. The `dequeue` method should remove and return the item in front of the queue. Your object should have a `length` function that returns the length of the queue.
@@ -53,19 +53,19 @@ You can use a JavaScript list to create a simple Stack.
 Try out this code:
 
 ```javascript
-//use a list as a stack
+// Use a list as a stack
 var stack = [];
-// push items on the stack
+// Push items on to the stack
 stack.push('apple');
 stack.push('pear');
 stack.push('mango');
-// all the fruits are on the Stack
+// All the fruits are on the Stack
 console.log(stack);
-//printing 'mango'
+// Printing 'mango'
 console.log(stack.pop());
-// only 'apples' and 'pears' remains
+// Only 'apples' and 'pears' remain
 console.log(stack);
-//what will this prints?
+// What will this print?
 console.log(stack.pop());
 ```
 

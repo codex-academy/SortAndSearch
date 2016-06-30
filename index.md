@@ -19,7 +19,7 @@ We will be exploring a bit more of this plumbing to give us a better understandi
 
 ## Assumption about knowledge
 
-We assume at this stage that you are confident with using JavaScript Arrays (lists) and Mapsm and you are comfortable with loops, conditional statements and functions.
+We assume at this stage that you are confident with using JavaScript Arrays (lists) and Maps and you are comfortable with loops, conditional statements and functions.
 
 We also assume that you have already helped Nelisa to find her most and least popular products and categories.
 

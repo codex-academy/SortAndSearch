@@ -8,8 +8,8 @@ title: Facilitator notes
 
 The [introduction](/pages/intro.html) section main learning outcomes are:
 
-* Learn about using intermediary variables
-* How to use an intermediary variable to swop entries in a list
+* How to use intermediary variables to move data entries in a data structure
+* How to use an intermediary variable to swap entries in a list
 * The last function is introducing to the basics of Bubble Sort
 
 The concept that candidates will need to understand to swap two entries in a list is that you need to keep the value of the entry that is to be replaced by the other entry in the list in an intermediate variable.
@@ -48,6 +48,11 @@ The [Node and Pointers](/pages/nodes_and_pointers.html) sections main learning o
 * For candidates to start thinking about creating their own data structures.
 
 ## Collection basics
+
+The [Collection basics](/pages/lists_vs_arrays.html) section main learning outcomes are:
+
+
+## Data structures
 
 The [Collection basics](/pages/lists_vs_arrays.html) section main learning outcomes are:
 

@@ -7,91 +7,133 @@ unitstandard: 115373-SO1-AC1
 
 # Data Structures
 
-Data and how data is structured is a major part of programming. We spend a lot of time formatting and structuring data to solve problems and come up with solutions to problems and answers to questions.
+Data and how data is structured is a major part of programming. We spend a lot of time formatting and structuring data to solve problems and come up with answers to solutions.
 
-There are some specific data structures that the industry came up with that solve certain recurring challenges. We will be looking at a few of those. They include Queues, Stacks, Graphs, and Trees.
+There are some specific data structures that industry came up with that solve certain recurring challenges. We will be looking at a few of those. The include the following data structures Queues, Stacks, Graphs and Trees.
 
 ## Queue
 
 A Queue is a First in First Out (FIFO) linear data structure.
 
-In everyday life queues are common. We routinely wait for our turn at the cash machine or at the supermarket. People can only join the queue from the back and the person in front of the queue is helped first.
+In everyday life queues are very common, we routinely wait for our turn at the cash machine or at the supermarket. People can only join the queue from the back and the person in front of the queue is helped first.
 
-In programming queues are also widely used and the [Event Loop](https://www.youtube.com/watch?v=8aGhZQkoFbQ) in JavaScript is a prime example of one. It is used to schedule the execution order of events in JavaScript.
+In programming queues are also widely used and the [Event Loop](https://www.youtube.com/watch?v=8aGhZQkoFbQ) in Javascript is a prime example of one. It is used to schedule the execution order of events in Javascript.
 
-You can create a simple Queue using a JavaScript list. Try out this code:
+You can easily create a simple Queue using a Javascript list.
+
+Look at this code and try it out:
 
 ```javascript
 var queue = [];
 
-// Use a list as a queue
+//use a list as a queue
 queue.push('apple');
 queue.push('pear');
 queue.push('mango');
 
-// All the items are added to the end of the list
+//all the items is attached to the back of the list
 console.log(queue);
-// The first item is taken off the list
+//the first item are taken of the list
 console.log(queue.shift());
-// Only pear and mango will be on the list
+//only pear and mango will be on the list
 console.log(queue);
-// What will this print?
+//what will this print?
 console.log(queue.shift());
-// Which items will remain on the list/queue?
+//which items will remain on the list/queue?
 ```
 
-Create your own `Queue` Object (constructor function) that wraps a JavaScript list object. It should have two methods: `enqueue` and `dequeue`. The `enqueue` method should put an item onto the queue. The `dequeue` method should remove and return the item in front of the queue. Your object should have a `length` function that returns the length of the queue.
+**Try this**
+
+Create your own `Queue` Object (constructor function) that wraps a Javascript list object. It should have to two methods `enqueue` and `dequeue`. The `enqueue` method should put an item unto the queue. And the `dequeue` method should remove and return the item in front of the queue. Your object should have a `length` function that returns the length our the queue.
 
 ## Stack
 
 A Stack is Last in First Out(LIFO) linear data structure.
 
-The undo command in a text editor is a good example of using a Stack in real life. If you press undo the last thing you did is undone. If you keep going, the last thing that will be undone will be the first change you made to the text document.
+The undo command in a text editor is a good example of using a Stack in real life. If you press undo the last thing you did is undone. If you keep on going the last thing that will be undone will be the first change you made to the text document.
 
-You can use a JavaScript list to create a simple Stack.
+You can use a Javascript list to create a simple Stack.
 
-Try out this code:
+Look at this code and try it out:
 
 ```javascript
-// Use a list as a stack
+//use a list as a stack
 var stack = [];
-// Push items on to the stack
+// push items on the stack
 stack.push('apple');
 stack.push('pear');
 stack.push('mango');
-// All the fruits are on the Stack
+// all the fruits are on the Stack
 console.log(stack);
-// Printing 'mango'
+//printing 'mango'
 console.log(stack.pop());
-// Only 'apples' and 'pears' remain
+// only 'apples' and 'pears' remains
 console.log(stack);
-// What will this print?
+//what will this prints?
 console.log(stack.pop());
 ```
 
-You can read more about Stacks and Queues in  [Data Structures With JavaScript: Stack and Queue](http://code.tutsplus.com/articles/data-structures-with-javascript-stack-and-queue--cms-23348) on the tuts+ website.
+> You can read more about Stacks & Queues [here](http://code.tutsplus.com/articles/data-structures-with-javascript-stack-and-queue--cms-23348)
+
+## Trees
+
+A Tree is a data structure that is used to store data hierarchically. Trees are a widely used data structure one the web today. In fact all web browsers DOM (Document Object Model) is a Tree data structure. Which HTML elements containing other HTML elements with elements in them and so forth.
+
+Learn more about Trees [here](https://www.youtube.com/watch?v=mFptHjTT3l8)
+
+**A special tree**
+
+We will be looking at a special type of tree called called a Binary Search Tree (BST) which is a very efficient way to structure data to be able to easily search through it.
+
+Work you way through this [tutorial](http://bst.projectcodex.co) to understand Binary Search Trees.
+
+You can read [here](http://freefeast.info/difference-between/difference-between-trees-and-graphs-trees-vs-graphs/) how Graphs and Trees are different.
+
 
 ## Graphs
 
-Then there are Graphs: a data structure which links a node to one or more nodes. Your Facebook friends are a prime example of a Graph data structure. A Graph data structure links you to your multitude of friends and them to their friends,  of which you can be one.
+A graph data structure is good for modeling networks, it models collections of nodes are inter connected well. Your Facebook friends are a prime example of a network that is a Graph data structure. A Graph data structure links you to your multitude of friends and them to their friends of which you can be one. It can be used to find all your friends and friends of your friends. You can run a query on it to find out if you have any friends or a friend of a friend that is called 'Xola' for instance.
+
+It can also be used to model routes between destinations and be used to determine which route between two destinations are the shortest.
+
+Each Node in a Graph is called a Vertex and the links between Vertex's are called an Edge. Vertices are linked to each other using edges. Edges are a combination of two Vertices. In a directional Graph the direction of the link between two vertices are indicated. An example of this is on a social network like Twitter where users can follow each other, if one User A is following User B the direction of the vertices is from directed from User A to User B.
+
+Edges can also have a weight, which is useful to put a value on a connection between two vertices - this is very useful in a graph that models the distances between various different towns.
+
+To model a Graph we will be using and adjacency list. The adjacency list is an list of keys each one which have a list of vertices that it is connected to.
+
+Let's look a social network example again. Say Joe is friends with Xola, Jane and Jabu. Jabu is friends with Jane, Xola and Andy. Andy is friends with Bob, Sammy and Xola.
+
+In this example each Person/User is a vertex and the friendship between them is an Edge.
 
 ```javascript
 
 // add Graph example
+var Person = function(name){
+    this.name = name;
+};
+
+var SocialNetwork = function(){
+    var members = [];
+    var friendships = {};
+
+    this.join = function(person){
+        members.push(person);
+    };
+
+    this.befriend = function(member, friend){
+        //    
+        friendships[member].push(friend);
+    };
+};
 
 ```
 
-**Try this**
+## Usefull links
 
-Use a Graph to show which product is in which category.
+Tutsplus got a interesting series on [data structures uding Javascript](http://code.tutsplus.com/series/data-structures-in-javascript--cms-772)
 
-## Trees
-
-A Tree is a graph with stricter rules: it only allows one path between two nodes.
-
-Learn more about Trees [in this video](https://www.youtube.com/watch?v=mFptHjTT3l8)
-
-You can read omre about [the difference between Trees and Graphs](http://freefeast.info/difference-between/difference-between-trees-and-graphs-trees-vs-graphs/).
+Here is [another series](http://blog.benoitvallon.com/data-structures-in-javascript/data-structures-in-javascript/) on data structures using Javascript.
 
 ## When is it useful?
 

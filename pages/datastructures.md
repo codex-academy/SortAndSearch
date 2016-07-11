@@ -46,6 +46,10 @@ console.log(queue.shift());
 
 Create your own `Queue` Object (constructor function) that wraps a Javascript list object. It should have to two methods `enqueue` and `dequeue`. The `enqueue` method should put an item unto the queue. And the `dequeue` method should remove and return the item in front of the queue. Your object should have a `length` function that returns the length our the queue.
 
+**Next** Create a `Queue` Object similar to the object above, but one that is **not** using a Javascript list object internally. Use `Node` objects similar to what you used to create a Linked List earlier.
+
+**Once** you have a `Queue` object going that is using a `Node` objects, create a `Stack` Object that is using `Node` objects. The Stack object should have a `push` and `pop` method and a `depth` property. The `push` method should add an item to the stack. The `pop` method should return and remove the item that was added to the Stack last. The `depth` property should keep a count of the number of items on the Stack.
+
 ## Stack
 
 A Stack is Last in First Out(LIFO) linear data structure.

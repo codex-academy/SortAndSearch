@@ -62,7 +62,7 @@ This is exactly what we did in the previous section. We created a `Node` Object 
 
 As is hard to use the `Node` Object on it's own we need to create a `LinkedList` object that is easier to use.
 
-Use TDD to create a LinkedList object that has:
+Use TDD to create a LinkedList object that have:
 
 * an `add` function that adds an item to the list;
 * a `length` function that returns the number of items in the list;
@@ -74,4 +74,4 @@ Now add this:
 
 * a `find` function that finds all items in a list that matches a given condition. It should take in a function as a parameter. This function will take in the current Node and will return true/false if the condition is met.
 
-Now use your newly created **LinkedList** object to and create a list of Categories and Product names for Nelisa.
+Use your **LinkedList** object to and create a list of Categories and Product names for Nelisa.

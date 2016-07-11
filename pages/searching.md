@@ -40,4 +40,6 @@ I know now it's a number between 25 and 50. Next I guess 37. And bingo you say! 
 
 Write a number guessing console game which generates a random number in memory when it starts. It should prompt the user to enter a number and return either `Correct!`, `Too low!` or `Too high!`. Display a counter of how many guesses was made and display it before each new prompt to enter a number.
 
+**Once done** with the above. Do this: automate the above game so that the game itself guess what random number was generated. Display the final number of guesses made by the program once the program got the right number.
+
 Learn more about doing a Binary search by [watching this video](https://www.youtube.com/watch?v=5xlIPT1FRcA).

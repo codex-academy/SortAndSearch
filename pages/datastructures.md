@@ -48,8 +48,6 @@ Create your own `Queue` Object (constructor function) that wraps a Javascript li
 
 **Next** Create a `Queue` Object similar to the object above, but one that is **not** using a Javascript list object internally. Use `Node` objects similar to what you used to create a Linked List earlier.
 
-**Once** you have a `Queue` object going that is using a `Node` objects, create a `Stack` Object that is using `Node` objects. The Stack object should have a `push` and `pop` method and a `depth` property. The `push` method should add an item to the stack. The `pop` method should return and remove the item that was added to the Stack last. The `depth` property should keep a count of the number of items on the Stack.
-
 ## Stack
 
 A Stack is Last in First Out(LIFO) linear data structure.
@@ -79,6 +77,8 @@ console.log(stack.pop());
 
 > You can read more about Stacks & Queues [here](http://code.tutsplus.com/articles/data-structures-with-javascript-stack-and-queue--cms-23348)
 
+**Do this:** Create a `Stack` Object that is using `Node` objects. The Stack object should have a `push` and `pop` method and a `depth` property. The `push` method should add an item to the stack. The `pop` method should return and remove the item that was added to the Stack last. The `depth` property should keep a count of the number of items on the Stack.
+
 ## Trees
 
 A Tree is a data structure that is used to store data hierarchically. Trees are a widely used data structure one the web today. In fact all web browsers DOM (Document Object Model) is a Tree data structure. Which HTML elements containing other HTML elements with elements in them and so forth.
@@ -92,7 +92,6 @@ We will be looking at a special type of tree called called a Binary Search Tree 
 Work you way through this [tutorial](http://bst.projectcodex.co) to understand Binary Search Trees.
 
 You can read [here](http://freefeast.info/difference-between/difference-between-trees-and-graphs-trees-vs-graphs/) how Graphs and Trees are different.
-
 
 ## Graphs
 

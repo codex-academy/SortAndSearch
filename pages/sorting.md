@@ -32,10 +32,6 @@ Add sorting support to your LinkedList class. Be sure that you can sort ascendin
 
 What do you notice about how sort algorithms are named?
 
-## What makes sorting hard?
-
-When you looked at the various different sorting algorithm what did you notice? Maybe you realized that some of them is easier to understand than other algorithms. Selection sort is using an algorithm similar to a linear search, it that search through the list of values for the biggest or smallest value then move it to a separate list. It keep on doing that until all the values in the list has been sorted. The problem with this approach that a lot of steps is required to sort a list of values. [BigO notation](https://justin.abrah.ms/computer-science/big-o-notation-explained.html) is the term for the number of iterations or complexity a Algorithm might need to complete. Some sorting algorithms works better than others based on the state of the data that is to be sorted. As an algoritm doesn't know in advance what the dataset looks it can make to assumptions about the order of the data and as a result the algorithm might do unnecessary processing as a result.
-
 ## Curious about more sort algorithms?
 
 Here are two more.
@@ -43,3 +39,12 @@ Here are two more.
 Take a look at how Insertion sort works [in this video](https://www.youtube.com/watch?v=DFG-XuyPYUQ)
 
 [Here's a video](https://www.youtube.com/watch?v=f8hXR_Hvybo) about how the very efficient Merge sort algorithm works.
+
+
+## What makes sorting hard?
+
+When you looked at the various different sorting algorithm what did you notice? Maybe you realized that some of them is easier to understand than other algorithms. Selection sort is using an algorithm similar to a linear search, it that search through the list of values for the biggest or smallest value then move it to a separate list.
+
+It keep on doing that until all the values in the list has been sorted. The problem with this approach that a lot of steps is required to sort a list of values. [BigO notation](https://justin.abrah.ms/computer-science/big-o-notation-explained.html) is the term for the number of iterations or complexity a Algorithm might need to complete.
+
+Some sorting algorithms works better than others based on the state of the dataset that is being sorted. Algorithms in general got no knowledge about the dataset to be sorted as a result the algorithm might do unnecessary processing. Algorithms that performs well for an unordered list might perform badly on a list that is nearly sorted or the other way around. Look at these [sorting algorithm animations](https://www.toptal.com/developers/sorting-algorithms) to understand how different sorting algorithms performs with various different datasets.

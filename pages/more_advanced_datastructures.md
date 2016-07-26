@@ -242,4 +242,4 @@ Make it easier to use the Social Network by creating functions and objects to cr
 
 ## Foundation to explore
 
-By now you have a solid foundation to start exploring other data structures from. Next you can look into using Graphs with the Depth-First Algorithm. Or how to use Dijkstra Algorithm to calculate the shortest route between two locations.
+By now you have a solid foundation to start exploring other data structures from. Next you can look into using Graphs with the Depth-First Algorithm. Or how to use Dijkstra Algorithm to calculate the shortest route between two locations. You can learn more about the basics of route finding algorithms on [Khan Academy](https://www.khanacademy.org/computing/computer-science/algorithms/intro-to-algorithms/a/route-finding).

@@ -9,9 +9,9 @@ unitstandard: 115373-SO1-AC2
 
 ## Arrays
 
-An [Array](https://www.youtube.com/watch?v=7EdaoE46BTI) is variable that can store more than one variable under the same name. In it's purest form it is a continuous memory block where some variables can be stored sequentially. Each variable in an Array is accessible using an index number. They are linear lists with a fixed number of spaces available for variables.
+An [Array](https://www.youtube.com/watch?v=7EdaoE46BTI) is a variable that can store more than one variable under the same name. In it's purest form it is a continuous memory block storing variables sequentially. Each variable in an Array is accessible using an index number. They are a linear lists with a fixed number of spaces available for variables.
 
-JavaScript Arrays [are not	 Arrays](https://javascriptweblog.wordpress.com/2010/07/12/understanding-javascript-arrays/) in the purest sense of the word as they are auto extending.
+JavaScript Arrays [are not Arrays](https://javascriptweblog.wordpress.com/2010/07/12/understanding-javascript-arrays/) in the pure sense of the word as they are auto extending.
 
 You can create an Array like this:
 
@@ -46,9 +46,9 @@ player[8] = "Wayne Rooky";
 
 ```
 
-In JavaScript an Array auto-extends when new values are added to them. In programming languages with traditional Arrays they don't auto-extend: you can only add as many values into an Array as are allocated at initialization time. To extend an Array you would have to create a new, bigger, Array and then copy the values over to the new Array. None of that happens in JavaScript, so Lists in JavaScript are Array-like, but not pure Arrays. Something to bear in mind for your journey ahead as a programmer.
+When adding new values to a JavaScript Array it auto-extends.  In programming languages with pure Arrays they don't auto-extend. You can only add as many values into an Array as allocated at Array initialization time. To extend an Array you would have to create a new, bigger, Array and then copy the values over to the new Array. In JavaScript this is not the case, Lists in JavaScript are Array-like, but not pure Arrays. Something to bear in mind in your journey ahead as a programmer.
 
-Arrays are a fundamental building blocks for various other data structures, especially when combined with Objects.
+Arrays and Objects are fundamental building blocks for creating other data structures.
 
 ## Linked List
 
@@ -56,7 +56,7 @@ A [Linked List](https://en.wikipedia.org/wiki/Linked_list) is an ordered set of 
 
 **Does this sounds familiar?**
 
-This is exactly what we did in the previous section. We created a `Node` Object and then use it to create a list of inter-connected `Node` objects resulting in a list. It is very cumbersome to use though: we can fix this by using a LinkedList object.
+This is what you did in the previous section. You created a `Node` Object and then use it to create a list of inter-connected `Node` objects resulting in a list. It is cumbersome to use though: we can fix this by using a LinkedList object.
 
 ## A usable Linked List
 

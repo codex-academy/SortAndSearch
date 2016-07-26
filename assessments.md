@@ -1,38 +1,39 @@
 # Assessments
 
-## Formative 1
+## Formative assessment 1
 
 Learn how to manipulate values in a collection, introducing candidates to the concept of using temporary variables.
 
 Swap entries in a List. Swap the first and the second entry in a list. Swap the first and the last entries in a List.
 
-Compare values in a List with each other can keep on swapping the entry that are bigger than the entry on the right of the current value.
+Compare values in a List with each other keep on swapping the entry that are bigger than the entry on the right of the current value.
 
-## Formative 2
+## Formative assessment 2
 
-Explore the basis of Linked Lists and how to manipulate entries in a Linked List.
+Explore Linked Lists foundations
+Learn how to manipulate entries in a Linked List.
 
 ### Working with Nodes and pointers
 
-Given a LinkedList of Node objects print out all the entries in the list. Swap the first and second entry. Swap the last and the first entries in the list of Nodes. Discover how to know when the end of the List is reached.
+Given a LinkedList of Node objects print out all the entries in the list. Swap the first and second entry. Swap the last and the first entries in the list of Nodes. Discover how to know when the end of a Linked List is reached.
 
 Compare and move values around in a list of Linked Nodes.
 
-## Formative 3
+## Formative assessment 3
 
 Create a useable LinkedList Object that is using `Node` objects and not Javascript built in Lists at all. It should have `add`, `length`, `next`, `first` and `last` functions.
 
 Add search functionality to your LinkedList.
 
-## Formative 4
+## Formative assessment 4
 
 Create your own `Queue` Object (constructor function) that wraps a Javascript list object. It should have to two methods `enqueue` and `dequeue`. The `enqueue` method should put an item unto the queue. And the `dequeue` method should remove and return the item in front of the queue. Your object should have a `length` function that returns the length our the queue.
 
-## Formative 5
+## Formative assessment 5
 
 Create a Binary Search Tree (BST) to which values can be added. Add `findMax` and a `findMin` functions to it that can find the biggest and smallest values in the tree.
 
-## Formative 6
+## Formative assessment 6
 
 Create number guessing game. First one that needs users to guess the numbers. And then after that one that the program itself guess the numbers using the principles of the Binary Search algorithm.
 

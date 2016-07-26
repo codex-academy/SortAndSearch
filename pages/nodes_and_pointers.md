@@ -1,14 +1,8 @@
----
-layout: default
-title: Index
-unitstandard: 115373-SO1-AC2
----
-
 # Nodes and pointers
 
 ## Introduction
 
-In the warm up session you worked with Javascript lists, swapping the list entries around. If I told you had to do the first warm up exercise, BUT you are not allowed to a built Javascript lists. How would you approach it?
+In the warm up session you worked with JavaScript lists, swapping the list entries around. If I told you had to do the first warm up exercise, BUT you are not allowed to a built JavaScript lists. How would you approach it?
 
 **pregnant pause...**
 
@@ -16,13 +10,13 @@ You will need to create your own List. How would you do that?
 
 **more silence**
 
-Why not use Javascript objects, to point to other Javascript objects.
+Why not use JavaScript objects, to point to other Javascript objects.
 
 How would that work?
 
 ## Nodes and pointers applied
 
-How about creating a `Node` object that can contain some data and points to another `Node` object. So in effect creating a list of inter-connected Objects where the one Object points to the next object.
+How about creating a `Node` object that can contain some data and points to another `Node` object. In effect creating a list of inter-connected Objects where the one Object points to the next object.
 
 Let's try it out:
 

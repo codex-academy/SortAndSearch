@@ -240,6 +240,6 @@ Try to run this code on your own computer. Add some more people to the network a
 
 Make it easier to use the Social Network by creating functions and objects to create and maintain it. Also add some mocha tests.
 
-## Foundation to explore
+## Foundation to explore from
 
 By now you have a solid foundation to start exploring other data structures from. Next you can look into using Graphs with the Depth-First Algorithm. Or how to use Dijkstra Algorithm to calculate the shortest route between two locations. You can learn more about the basics of route finding algorithms on [Khan Academy](https://www.khanacademy.org/computing/computer-science/algorithms/intro-to-algorithms/a/route-finding).

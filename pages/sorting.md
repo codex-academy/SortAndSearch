@@ -4,12 +4,6 @@ title: Index
 unitstandard: 115373-SO2-AC1, 115373-SO2-AC2, 115373-SO2-AC3
 ---
 
----
-layout: default
-title: Index
-unitstandard: 115373-SO2-AC1, 115373-SO2-AC2, 115373-SO2-AC3
----
-
 # Sorting
 
 Sorting a list in JavaScript is as easy as calling the `sort` function. You can specify how it should be sorted by passing in a command function. What is it doing behind the scenes, though?

@@ -1,8 +1,8 @@
 # Introduction
 
-We will be working with Data Structures extensively in this section. We will use JavaScript Arrays, which is rather a List than an Array, a lot. You will discover why a JavaScript Array is not an Array in the truest sense of the word. You will also learn how to create your own Data Structures in JavaScript. Soon you will be creating and sorting your own Lists in JavaScript.
+We will be working with Data Structures extensively in this section. We will use JavaScript Arrays a lot. We will discover why a JavaScript Array is not really an Array in the truest sense of the word, but more like a List. You will also learn how to create your own Data Structures in JavaScript. Soon you will be creating and sorting your own Lists in JavaScript.
 
-## Lets do a few warming up exercises.
+## Let’s do a few warm-up exercises
 
 Write code and unit tests for the functions below.
 
@@ -17,7 +17,7 @@ Create a function:
 Given a list :
 
 ```javascript
-['apple', 'pear', 'mango', 'banana']
+['apple', 'pear', 'mango', 'banana'];
 ```
 
 It should return :
@@ -48,13 +48,13 @@ It should return :
 
 ### Know they neighbour
 
-Create a function:
+Create a function that:
 
-  * That takes a list of numbers.
-  * And loop through the numbers.
-  * And compare each number with its neighbour to the right.
-  * If a number is bigger than its neighbour on the right, it should swap with its neighbour.
-  * And returns the resulting list.
+  * takes a list of numbers;
+  * loops through the numbers;
+  * compares each number with its neighbour to the right;
+  * if a number is bigger than its neighbour on the right, it should swap with its neighbour.
+  * returns the resulting list.
 
 What is the result of this function? Where does the biggest number ends up?
 
@@ -64,7 +64,7 @@ Use this data :
     [5, 19, 7, 17, 6, 1, 3]
 ```
 
-**Insights:**
+**Insights**
 
 * What did you learn from writing these functions?
 * What was hard?

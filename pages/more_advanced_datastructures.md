@@ -128,7 +128,7 @@ How would you find the biggest number in the Tree?
 
 Now go ahead and create a Binary Search Tree that can find Nelisa's most popular and least popular products for a given week.
 
-You can read [this comparison](http://freefeast.info/difference-between/difference-between-trees-and-graphs-trees-vs-graphs/) to understand how Graphs and Trees are different.
+You can read more about [the difference between Trees and Graphs](http://freefeast.info/difference-between/difference-between-trees-and-graphs-trees-vs-graphs/).
 
 ## Graphs
 

@@ -2,11 +2,11 @@
 
 ## Introduction
 
-In the warm up session you worked with JavaScript lists, swapping the list entries around. If I told you had to do the first warm up exercise, BUT you are not allowed to a built JavaScript lists. How would you approach it?
+In the warm-up session you worked with JavaScript lists, swapping the list entries around. What if I told you had to do the first warm-up exercise again, but you weren't allowed to use JavaScript lists? How would you approach it?
 
 **pregnant pause...**
 
-You will need to create your own List. How would you do that?
+You would need to create your own List. How would you do that?
 
 **more silence**
 
@@ -16,7 +16,7 @@ How would that work?
 
 ## Nodes and pointers applied
 
-How about creating a `Node` object that can contain some data and points to another `Node` object. In effect creating a list of inter-connected Objects where the one Object points to the next object.
+How about creating a `Node` object that can contain some data and points to another `Node` object? In effect, that would create a list of inter-connected Objects where one Object points to the next one.
 
 Let's try it out:
 
@@ -30,7 +30,7 @@ var Node = function(data, next){
 Let's recreate the list from the first exercise:
 
 ```javascript
-// create this
+// Create this
 // ['apple', 'pear', 'mango', 'banana']
 
 //Create a list by using nested Nodes
@@ -42,30 +42,28 @@ var fruitList = new Node('apple', new Node('pear',
 Another way to create the list would be:
 
 ```javascript
-    //First create all the Nodes
-    var apple = new Node('apple', null),
-        pear = new Node('pear', null),
-        mango = new Node('mango', null),
-        banana = new Node('banana', null);
+//First create all the Nodes
+var apple = new Node('apple', null),
+    pear = new Node('pear', null),
+    mango = new Node('mango', null),
+    banana = new Node('banana', null);
 
-    //now link the Nodes
-    apple.next = pear;
-    pear.next = mango;
-    mango.next = banana;ß    
+//now link the Nodes
+apple.next = pear;
+pear.next = mango;
+mango.next = banana;
 ```
 
-Now that you have a list of fruits.
-
-Experiment a bit:
+Now that you have a list of fruits, experiment a bit:
 
 ```javascript
-//let's print out 'apple'
+// Let's print out 'apple'
 console.log(fruitList.data);
 
-//let's print out 'pear'
+// Let's print out 'pear'
 console.log(fruitList.next.data);
 
-// how can you print out 'mango'
+// How can you print out 'mango'
 
 ```
 
@@ -80,20 +78,18 @@ console.log(fruitList.next.data);
 **Given this list of Node**
 
 ```javascript
-    //First create all the Nodes
-    var node1 = new Node(17, null),
-        node2 = new Node(5, null),
-        node3 = new Node(72, null),
-        node4 = new Node(32, null),
-        node5 = new Node(23, null);
+//First create all the Nodes
+var node1 = new Node(17, null),
+    node2 = new Node(5, null),
+    node3 = new Node(72, null),
+    node4 = new Node(32, null),
+    node5 = new Node(23, null);
 
-    //now link the Nodes
-
-    node1.next = node2;
-    node2.next = node3;
-    node3.next = node4;
-    node4.next = node5;
-
+//now link the Nodes
+node1.next = node2;
+node2.next = node3;
+node3.next = node4;
+node4.next = node5;
 ```
 
 Compare the values in each Node with the next Node and swap the node around if the first Node's values is bigger than the next Node's value. What is the outcome? Where does the Node with the biggest value end up? Why is that?
@@ -108,8 +104,10 @@ A list of Nodes is called a `Linked List`. Each Node is linked to the next Node 
 
 One also get `doubly Linked List` where list `Nodes` can point to both the next and the previous `Node` in the chain. This makes your Linked List data structure more flexible and easier to navigate.
 
-**Pro's and Con's** What are the Pro's and Con's of a Linked List? How are a doubly Linked List beneficial?
+### Pro's and Con's
+
+What are the Pro's and Con's of a Linked List? How is a doubly Linked List beneficial?
 
 ## Beyond Linked List
 
-Using a similar approach one can create different data structures such as Queues, Stacks, Graphs and Trees using `Node` objects that links to each other. But more about that later.
+Using a similar approach one can create various different data structures such as Queues, Stacks, Graphs and Trees using `Node` objects that link to each other. More about that later.

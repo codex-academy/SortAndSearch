@@ -81,7 +81,7 @@ You can read more about Stacks and Queues in  [Data Structures With JavaScript: 
 
 ## Useful links
 
-Tutsplus got a interesting series on [data structures uding JavaScript](http://code.tutsplus.com/series/data-structures-in-javascript--cms-772)
+Tutsplus got a interesting series on [data structures using JavaScript](http://code.tutsplus.com/series/data-structures-in-javascript--cms-772)
 
 Here is [another series](http://blog.benoitvallon.com/data-structures-in-javascript/data-structures-in-javascript/) on data structures using JavaScript.
 
@@ -89,4 +89,4 @@ Here is [another series](http://blog.benoitvallon.com/data-structures-in-javascr
 
 Which data structures best represent the row of customers waiting at your local bank?
 
-> TODO - think of more everyday examples of Queues, Stacks, Graphs and Trees.
+> Can you think of more everyday examples of Queues, Stacks, Graphs and Trees.

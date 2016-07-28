@@ -27,7 +27,7 @@ The most efficient way to play the number guessing game that we started this sec
 
 You think of a number between 1 and 100. I guess the number is 50. You say no the number is lower than 50. What did I learn?
 
-Yes! That the number is less than 50 and there is no way it can be 71, 63, 82 or any number bigger than or equal to than 50. Only 49 options to go! Yay!
+Yes! That the number is less than 50 and there's no way it can be 71, 63, 82 or any number bigger than or equal to than 50. Only 49 options to go! Yay!
 
 Now I guess 25. You say No it's bigger. Now I know it can't be 1, 17, 24 or any number less or equal to 25. I only have 25 options left to me. As you can see the list of possible numbers is getting halved each time.
 

@@ -12,11 +12,11 @@ A basic sort function might compare each value in a list with each other and the
 
 # Sorting algorithms
 
-There are various different sorting algorithms. An algorithm is a set of steps to achieve a certain goal or outcome. Some sorting algorithms are more efficient than others: they take less steps to complete sorting the data. The steps are how many times the algorithm needs to inspect the data to ensure the data is sorted.
+There are different sorting algorithms. An algorithm is a set of steps to achieve a certain goal or outcome. Some sorting algorithms are more efficient than others: they take less steps to complete sorting the data. The steps are how many times the algorithm needs to inspect the data to make sure the data is sorted.
 
 ## Selection sort
 
-Selection sort is very similar to finding the most popular or least popular product for Nelisa. You don’t stop once you find the smallest/largest product, though: you keep going until you ordered all the values in the list.
+Selection sort is like finding the most popular or least popular product for Nelisa. You don’t stop once you find the smallest/largest product, though: you keep going until you ordered all the values in the list.
 
 Learn more about Selection sort [in this video](https://www.youtube.com/watch?v=f8hXR_Hvybo). Do you see the similarity to finding products for Nelisa?
 
@@ -43,7 +43,7 @@ Take a look at this video to see [how Insertion sort works](https://www.youtube.
 
 ## What makes sorting hard?
 
-When you looked at the different sorting algorithm what did you notice? Maybe you realized that some of them is easier to understand than other algorithms. Selection sort is using an algorithm similar to a linear search. That search through the list of values for the biggest or smallest value then move it to a separate list.
+When you looked at the different sorting algorithm what did you notice? Maybe you realized that some of them are easier to understand than other algorithms. Selection sort is using an algorithm like linear search. That searches through the list of values for the biggest or smallest value then move it to a separate list.
 
 It keep on doing that until all the values in the list has been sorted. The problem with this approach that a lot of steps is required to sort a list of values. [BigO notation](https://justin.abrah.ms/computer-science/big-o-notation-explained.html) is the term for the number of iterations or complexity a Algorithm might need to complete.
 

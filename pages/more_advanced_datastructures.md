@@ -41,7 +41,7 @@ var TreeNode = function(data, left, right){
 };
 ```
 
-This Node is like the one you used to create a Linked List, but instead of a `next` property there is a `left` and a `right` property.
+This Node is like the one you used to create a Linked List, but instead of a `next` property there's a `left` and a `right` property.
 
 Use the TreeNode like this:
 
@@ -116,7 +116,7 @@ You need to keep on doing this until you find a place to add the new Node. Add t
 
 ### Add functionality to it
 
-Now you have a Binary Search Tree, how could you use it? One thing you can do is finding the smallest entry in the Tree. To do that you just need to navigate all the way down the Nodes always selecting the left Node until you find a Node with a null left Node. That Node will contain the Node with the smallest value in the Tree.
+Now you have a Binary Search Tree, how could you use it? One thing you can do is finding the smallest entry in the Tree. To do that you need to navigate all the way down the Nodes always selecting the left Node until you find a Node with a null left Node. That Node will contain the Node with the smallest value in the Tree.
 
 > Try it!
 
@@ -134,7 +134,7 @@ You can read [this comparison](http://freefeast.info/difference-between/differen
 
 A graph data structure is good for modeling networks. It models collections of nodes that are inter connected well. Your Facebook friends are a prime example of a network that is a Graph data structure. A Graph data structure links you to your multitude of friends and them to their friends, of which you can be one. You can use a Graph to model your connections with friends and friends of your friends. You can run a query on it to find out if you have any friends, or a friend of a friend, that is called 'Xola' for instance.
 
-You can also use a Graph to model different route options between destinations. You can then determine which route is the shortest.
+You can also use a Graph to model different route options between destinations. You can then work out which route is the shortest.
 
 A Vertex is a Node in a Graph. Edges link Vertices to each other, and are a combination of two Vertices.
 
@@ -148,7 +148,7 @@ You will use an adjacency list to model a Graph. An adjacency list is a list of 
 
 > Work through this tutorial in a hands-on workshop with your mentor if required.
 
-Let's use a Graph to create a simple social network that makes it easy to find reliable tradesman. It will make it easy to find friends of friends that are tradesman. Good reliable plumbers, electricians, tilers, and bricklayers are always in high demand. Remember not all the people in this social network will be tradesman.
+Let's use a Graph to create a social network to find reliable tradesman and friends of friends that are tradesman. Good reliable plumbers, electricians, tilers, and bricklayers are always in high demand. Remember not all the people in this social network will be tradesman.
 
 You will create a Graph data structure using an adjacency list. Next you will use a [Breadth-First search algorithm](https://www.youtube.com/watch?v=ytcPxRsZfcU) to find the tradesman you need that is the closest to you in the Social Network.
 
@@ -197,7 +197,7 @@ Next you need to find a specific tradesman connected to a person in the network.
 It works like this:
 
 * Create and empty queue data structure.
-* Find all friends for the specified person, put them all in queue you just created.
+* Find all friends for the specified person, put them all in queue you created.
 * While the queue is not empty keep on doing this:
   * Get the first entry of the queue.
   * Check if this person is of the tradesman type we are looking if it is return the tradesman details.
@@ -234,7 +234,7 @@ var findTradesman = function(personName, trade){
 
 Try to run this code on your own computer. Add some more people to the network and test it. Make sure that you are happy with how it's working. And that it finds the right people based on the criteria supplied.s
 
-Make it easier to use the Social Network by creating functions and objects to create and maintain it. Also add some mocha tests.
+Make it easier to use the Social Network by creating functions and objects to create and maintain it. Also add some Mocha tests.
 
 ## Foundation to explore from
 

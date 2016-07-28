@@ -43,7 +43,7 @@ Coders might need help to get to grips of how to use intermediate variables. Und
 The [Node and Pointers](/pages/nodes_and_pointers.html) sections main learning outcomes are:
 
 * Introducing candidates to creating their own data structures.
-* How candidates can use their existing knowledge of Objects in Javascript to do that.
+* How candidates can use their existing knowledge of Objects in JavaScript to do that.
 * To give candidates practical experience of creating and using their own data structures.
 * For candidates to start thinking about creating their own data structures.
 
@@ -56,7 +56,7 @@ The [Collection basics](/pages/lists_vs_arrays.html) section main learning outco
 
 The [Collection basics](/pages/lists_vs_arrays.html) section main learning outcomes are:
 
-* To introduce candidates to various different data structures.
+* To introduce candidates to different data structures.
 * How these data structures are used by them on a day to day basis.
 * How to implement and use these data structures.
 
@@ -65,8 +65,8 @@ The [Collection basics](/pages/lists_vs_arrays.html) section main learning outco
 
 The [Sort algorithms](/pages/datastructures.html) section main learning outcomes are:
 
-* To introduce candidates to various different sorting algorithms
-* To assist candidates to implement at least two different sorting algorithms
+* To introduce candidates to different sorting algorithms
+* To help candidates to implement at least two different sorting algorithms
 * To help candidates to gain some insight into sort algorithm performance.
 
 ## Search algorithms
@@ -74,5 +74,5 @@ The [Sort algorithms](/pages/datastructures.html) section main learning outcomes
 The [Search Algorithms](/pages/sorting.html) sections main learning outcomes are:
 
 * To introduce the candidates to basic search algorithms
-* For candidates to be able to compare various different search algorithms
-* And for them to be able to createa their own basic search algorithms
+* For candidates to be able to compare different search algorithms
+* And for them to be able to create their own basic search algorithms

@@ -10,7 +10,7 @@ You will need to create your own List. How would you do that?
 
 **more silence**
 
-Why not use JavaScript objects, to point to other Javascript objects.
+Why not use JavaScript objects, to point to other JavaScript objects.
 
 How would that work?
 
@@ -102,7 +102,7 @@ Compare the values in each Node with the next Node and swap the node around if t
 
 As you can see without using Javascript's list object it is possible to create a list of fruits or numbers.
 
-The list of `Nodes` are very basic and cumbersome to work with, but using a `Node` object we can create a chain of nodes that reference each other.
+The list of `Nodes` is basic and cumbersome to work with, but using a `Node` object we can create a chain of nodes that reference each other.
 
 A list of Nodes is called a `Linked List`. Each Node is linked to the next Node with the last Node in the list not linked to anything. As a result one can traverse a Linked List by starting at the root Node, getting the value of the Node and the next Node it is referencing too, until you reach the end of the list where the next Node of a given Node is null.
 
@@ -112,4 +112,4 @@ One also get `doubly Linked List` where list `Nodes` can point to both the next 
 
 ## Beyond Linked List
 
-Using a similar approach one can create various different data structures such as Queues, Stacks, Graphs and Trees using `Node` objects that links to each other. But more about that later.
+Using a similar approach one can create different data structures such as Queues, Stacks, Graphs and Trees using `Node` objects that links to each other. But more about that later.

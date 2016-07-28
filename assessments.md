@@ -21,13 +21,13 @@ Compare and move values around in a list of Linked Nodes.
 
 ## Formative assessment 3
 
-Create a useable LinkedList Object that is using `Node` objects and not Javascript built in Lists at all. It should have `add`, `length`, `next`, `first` and `last` functions.
+Create a useable LinkedList Object that is using `Node` objects and not JavaScript built in Lists at all. It should have `add`, `length`, `next`, `first` and `last` functions.
 
 Add search functionality to your LinkedList.
 
 ## Formative assessment 4
 
-Create your own `Queue` Object (constructor function) that wraps a Javascript list object. It should have to two methods `enqueue` and `dequeue`. The `enqueue` method should put an item unto the queue. And the `dequeue` method should remove and return the item in front of the queue. Your object should have a `length` function that returns the length our the queue.
+Create your own `Queue` Object (constructor function) that wraps a JavaScript list object. It should have to two methods `enqueue` and `dequeue`. The `enqueue` method should put an item unto the queue. And the `dequeue` method should remove and return the item in front of the queue. Your object should have a `length` function that returns the length our the queue.
 
 ## Formative assessment 5
 
@@ -39,7 +39,7 @@ Create number guessing game. First one that needs users to guess the numbers. An
 
 ## Summative 1
 
-Create your own `Queue` Object (constructor function) that is **not** using a Javascript list object, but `Node` object similar to what you used to create a LinkedList. It should have to two methods `enqueue` and `dequeue`. The `enqueue` method should put an item unto the queue. And the `dequeue` method should remove and return the item in front of the queue. Your object should have a `length` function that returns the length our the queue.
+Create your own `Queue` Object (constructor function) that does **not** use a JavaScript list object, but a `Node` object like the one you used to create a LinkedList. It should have to two methods `enqueue` and `dequeue`. The `enqueue` method should put an item unto the queue. And the `dequeue` method should remove and return the item in front of the queue. Your object should have a `length` function that returns the length our the queue.
 
 ## Summative 2
 

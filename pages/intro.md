@@ -1,3 +1,9 @@
+---
+layout: default
+title: Index
+unitstandard: 115373-SO1, 115373-SO2 
+---
+
 # Introduction
 
 We will be working with Data Structures extensively in this section. We will use JavaScript Arrays a lot. We will discover why a JavaScript Array is not really an Array in the truest sense of the word, but more like a List. You will also learn how to create your own Data Structures in JavaScript. Soon you will be creating and sorting your own Lists in JavaScript.

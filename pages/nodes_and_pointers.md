@@ -1,3 +1,9 @@
+---
+layout: default
+title: Index
+unitstandard: 115373-SO1-AC1
+---
+
 # Nodes and pointers
 
 ## Introduction

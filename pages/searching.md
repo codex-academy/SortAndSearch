@@ -1,3 +1,9 @@
+---
+layout: default
+title: Index
+unitstandard: 115373-SO3-AC01, 115373-SO3-AC02
+---
+
 # Searching algorithms
 
 ## Introduction

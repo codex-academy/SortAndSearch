@@ -2,7 +2,6 @@
 layout: default
 title: Index
 unitstandard: 115373-SO1-AC2
-
 ---
 
 # Collection basics

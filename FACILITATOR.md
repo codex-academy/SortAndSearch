@@ -50,12 +50,14 @@ The [Node and Pointers](/pages/nodes_and_pointers.html) section's main learning 
 
 ## Collection basics
 
-The [Collection basics](/pages/lists_vs_arrays.html) section's main learning outcomes are:
-
+The [Collection basics](/pages/collection_basics.html) section's main learning outcomes are:
+* Introducing candidates to pure Arrays;
+* comparing list with Arrays;
+* and letting candidates create a Linked List
 
 ## Data structures
 
-The [Collection basics](/pages/lists_vs_arrays.html) section's main learning outcomes are:
+The [Data structures](/pages/datastructures.html) section's main learning outcomes are:
 
 * To introduce candidates to different data structures;
 * How these data structures are used by them on a day to day basis;
@@ -63,7 +65,7 @@ The [Collection basics](/pages/lists_vs_arrays.html) section's main learning out
 
 ## Sort algorithms
 
-The [Sort algorithms](/pages/datastructures.html) section's main learning outcomes are:
+The [Sort algorithms](/pages/sorting.html) section's main learning outcomes are:
 
 * To introduce candidates to different sorting algorithms;
 * To help candidates implement at least two different sorting algorithms;
@@ -71,7 +73,7 @@ The [Sort algorithms](/pages/datastructures.html) section's main learning outcom
 
 ## Search algorithms
 
-The [Search Algorithms](/pages/sorting.html) section's main learning outcomes are:
+The [Search Algorithms](/pages/searching.html) section's main learning outcomes are:
 
 * To introduce the candidates to basic search algorithms;
 * For candidates to be able to compare different search algorithms;

@@ -49,7 +49,7 @@ Given a list :
 It should return :
 
 ```javascript
-['banana', 'apple', 'mango', 'apple']
+['banana', 'pear', 'mango', 'apple']
 ```    
 
 ### Know they neighbour

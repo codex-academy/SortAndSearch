@@ -24,3 +24,7 @@ We assume at this stage that you are confident with using JavaScript Arrays (lis
 We also assume that you have already helped Nelisa to find her most and least popular products and categories.
 
 If not stop right here and come back once you are comfortable with all the above.
+
+## Please complete your PoE
+
+Please complete your `Portfolio of Evidence (PoE)` by filling in this [form](https://form.jotformpro.com/ProjectcodeX/portfolio-of-evidence-US-115373). Please remember to commit your code into a private repository at [codeX's gitlab](http://gitlab.projectcodex.co).
